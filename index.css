@@ -1,0 +1,163 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size:18px;
+    color:#E5E7EB;
+}
+.new{
+    background-color: #1F2937;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:50px;
+    
+}
+.header-logo{
+    margin-right:200px;
+    font-size: 24px;
+    color:#F9FAF8;
+}
+.header ul{
+    display: flex;
+    gap:20px;
+   
+}
+
+.line1{
+    font-size: 48px;
+    font: bolder;
+    color:#F9FAF8;
+}
+.line2{
+    width: 400px;
+    font-size:18px;
+    color:#E5E7EB;
+}
+span{
+    display: block;
+}
+
+.hero-content{
+    display:flex;
+   justify-content:space-around;
+    padding:80px 0px;
+}
+.sign-up{
+    padding: 5px 20px;
+    border-radius:3px;
+    border:0px none;
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
+.random{
+    padding: 75px 0px;
+}
+
+
+
+.info-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px;
+    font-size:36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+.random-div div{
+    width: 150px;
+    height: 150px;
+    border:2px solid #3882F6;
+    border-radius:10px;
+    
+}
+.random-div{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+.par p{
+    width: 150px;
+    
+}
+.par{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+.qoute-div{
+
+    padding: 80px 0px;
+    background-color: #E5E7EB;
+  
+
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+   
+    
+    
+}
+.quote div{
+    flex-wrap: wrap;
+    
+    width: 650px;
+    height: auto;
+}
+
+
+.by{
+    display: flex;
+    justify-content:center ;
+    margin-left:500px;
+    font-size: 25px ;
+    font-weight: bold;
+    
+}
+.last-sign-up-tag{
+    display: flex;
+}
+.sign-up-tag{
+    background-color:#3882F6;
+    margin: 80px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    color:#F9FAF8;
+    
+}
+.tag-header{
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn-tag button{
+    padding: 5px 20px;
+    border-radius:3px;
+    border:2px solid white ;
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding:20px;
+    color: #F9FAF8;
+}
+
+
